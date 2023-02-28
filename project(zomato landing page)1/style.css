@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+body{
+    margin:0px;
+    padding:0px;
+    text-decoration: none;
+    font-family: 'poppins',sans-serif;
+    /* background-color: rgb(193, 28, 28); */
+}
+header{
+    width: 100%;
+    height:70vh;
+    overflow: hidden;
+    position: relative;
+    object-fit: cover;
+    margin-bottom: 2rem;
+}
+.header-image{
+    width:100%;
+    position:absolute;
+    top:-20vh;
+    z-index:-1;
+}
+.header-image img{
+    width: 100%;
+}
+.nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    color: aliceblue;
+    font-size: 1rem;
+    margin:0 40px;
+
+}
+.nav-bar{
+    list-style:none;
+    font-weight: lighter;
+    display: flex;
+    gap:1.5rem;
+
+}
+.head{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 7vh;
+    align-items: center;
+}
+.logo{
+    width:25vw ;
+}
+.search{
+    display: flex;
+    width:55vw;
+    align-items: center;
+    border-radius: 10px;
+    background-color: aliceblue;
+    padding: 5px 4px;
+}
+.search .search-item{
+    margin-left:10px;
+    display: flex;
+    align-items: center;
+}
+.search .search-item p{
+    color: cornflowerblue;
+    border-right: 1px solid grey;
+    font-size: 15px;
+    margin-right:10px ;
+    padding-left:10px;
+
+}
+.search .search-item input{
+    outline:none;
+    border:none;
+    width: 200px;
+    padding-left: 10px;
+    font-size: 15px;
+}
+.search .search-item:first-child{
+    width:30%;
+    color:rgb(123, 343, 100);
+   
+}
+.search .search-item:last-child{
+    width:70%;
+    color:grey;
+}
+.head h3{
+    font-size: 2.1 rem;
+    color:whitesmoke;
+    font-weight: 400;
+}.section1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:4rem;
+}
+.section1 .section1item{
+    position: relative;
+    width:15rem;
+    margin: 3px 5px;
+    overflow: hidden;
+   
+    border-radius: 10px;
+    /* -webkit-border-radius:10px ;
+    -moz-border-radius:10px ;
+    -ms-border-radius:10px;
+    -o-border-radius:10px ; */
+    background-color: aliceblue;
+    border: 1px solid rgb(214, 189, 189);
+
+}
+.section1 .section1item img{
+    width: 100%;
+    border:1px solid rgb(214, 189, 189);
+    border-radius:15px;
+    z-index: -1;
+
+}
+.section1 .section1item .itemdetails{
+    position:absolute;
+    bottom:3px;
+    align-items: center;
+    background-color:white ;
+    border-radius: 15px 15px;
+    width: 100%;
+    height:25%;
+    z-index:2;
+
+}
+.section1 .section1item .itemdetails p{
+    text-align: center;
+    font-size: 1.2rem;
+    letter-spacing: 0.7px;
+
+}
+.section1 .section1item:hover{
+    box-shadow: 2px rgb(16, 97, 97);
+    transition: all 0.1s;
+
+}
+.section2{
+    width:1080px;
+    margin:0 auto;
+    margin-bottom: 4rem;
+}
+ .section2heading{
+    font-size:2rem ;
+    line-height: 1.2;
+    font-weight: 400;
+}
+.section2 .section2container .section2items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.section2 .section2container .section2items .section2item{
+    width: 100%;
+    max-width: 26%;
+    margin-bottom: 20px;
+
+}
+.section2item{
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgb(216, 227, 227);
+    padding: 20px;
+} 
+.section2item .itemhead{
+    font-size: 1.2rem;
+    color: rgb(28, 28, 28);
+    margin: 0px;
+    margin-bottom: 5px;
+}
+.section2item .itemsubhead{
+    font-weight: lighter;
+    color:rgb(51,51,51);
+    margin: 0px;
+}
+.section3{
+    height: 620px;
+    background-color: aliceblue;
+}
+.section3container{
+    width: 1080px;
+    height: 100%;
+    margin:auto;
+    display: flex;
+    justify-content: center;
+}
+.section3img{
+    width:40%;
+}
+.section3img img{
+    width: 400px;
+}
+.section3content h1{
+    font-size: 2.5rem;
+    font-weight: lighter;
+    margin-bottom: 0%;
+    margin: 15px;
+}
+.section3content p{
+    font-size: 2.5rem;
+    font-weight: lighter;
+    margin-bottom: 15px;
+    margin: 0;
+
+}
+.section3download img{
+    width: 40%;
+}
+footer{
+    margin-top:24rem ;
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    justify-content: center;
+    /* align-items: center; */
+    background-color: rgb(194, 107, 75);
+}
+@media (min-width:30em) and (max-width:80em){
+   body{
+    background-color: aquamarine;
+   }
+}
+@media (min-width:10em) and (max-width:20em){
+    body{
+     background-color: rgb(224, 182, 109);
+    }
+ }
